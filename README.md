@@ -1,2 +1,2 @@
 # primero
-Pprimer ejercicio 29_01_2020
+primer ejercicio 29_01_2020
