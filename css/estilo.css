@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+ }
+
+ body{
+         /*      arriba  derecha   abajo  izq */
+    margin:   0px      5px     0px   5px;
+
+    /* margin: 0px;        <----- todos 0px */
+    /* margin: 0px 5px;    <----- arriba-abajo=0px der-izq=5px    (creo) nunca me acuerdo bien de esa*/
+    /* tambien se opcupa para padding*/ 
+    background-color: #000000;
+    
+    }
+
+ul{
+    background-color: #403430;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;     
+    }
+    
+li{
+    float: left
+}
+
+li a {
+    display: block;
+    color: #F2F2F2;
+    padding: 15px 15px;
+    text-decoration: none;
+    justify-content: center;    
+}
+li a:hover{
+    background-color: #F2F2F2;
+    color: #403430
+}
+
+.fotobase{
+    display: block;
+    border: #F2F2F2;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;      
+}
+
+h1{
+    text-decoration-line:underline ;
+    color: #F2F2F2;
+}
+
+h2{
+    text-decoration-line:underline ;
+    color: #F2F2F2;
+    font-size: 20px
+
+
+}
+
+.columnacomedor{
+    float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 250px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+p{
+    color: #F2F2F2;
+}
+
+.columnamenu{
+    float: left;
+    width: 33.33%;
+    border: 2px solid #F2F2F2;
+    padding: 10px;
+    height: 300px;
+}
+
+.pie{
+    height: 160px;
+    background-color: #403430;
+    display: block;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.fotopie{
+      width: 50px;
+}
+
+.flecha{
+      width: 50px;
+      height: 50px;
+}
+
